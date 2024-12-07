@@ -1,0 +1,138 @@
+import { ProductDetailProps } from "@/types/componentTypes";
+import { NextResponse } from "next/server";
+
+const productDetails : ProductDetailProps[] = [
+    {
+        id: "id1",
+        name: "Gucci duffle bag",
+        image: "bag",
+        desc: "",
+        price: "960",
+        category: "Gaming",
+    },
+    {
+        id: "id2",
+        name: "RGB liquid CPU Cooler",
+        image: "CPUCooler",
+        desc: "",
+        price: "1960",
+        category: "Gaming",
+    },
+    {
+        id: "id3",
+        name: "GP11 Shooter USB Gamepad",
+        image: "Gamepad",
+        desc: "",
+        price: "550",
+        category: "Gaming",
+    },
+    {
+        id: "id4",
+        name: "Quilted Satin Jacket",
+        image: "jacket",
+        desc: "",
+        price: "750",
+        category: "Mens Wear",
+    },
+    {
+        id: "id5",
+        name: "ASUS FHD Gaming Laptop",
+        image: "laptop",
+        desc: "",
+        price: "960",
+        category: "Gaming",
+    },
+    {
+        id: "id6",
+        name: "IPS LCD Gaming Monitor",
+        image: "GamingMonitor",
+        desc: "",
+        price: "1160",
+        category: "Gaming",
+    },
+    {
+        id: "id7",
+        name: "AK-900 Wired Keyboard",
+        image: "keyboard",
+        desc: "",
+        price: "960",
+        category: "Gaming",
+    },
+    {
+        id: "id8",
+        name: "HAVIT HV-G92 Gamepad",
+        image: "gameRemote",
+        desc: "",
+        price: "120",
+        category: "Gaming",
+    },
+    {
+        id: "id9",
+        name: "S-Series Comfort Chair",
+        image: "chair",
+        desc: "",
+        price: "375",
+        category: "Furniture",
+    },
+    {
+        id: "id10",
+        name: "The north coat",
+        image: "northCoat",
+        desc: "",
+        price: "260",
+        category: "Mens Wear",
+    },
+    {
+        id: "id11",
+        name: "Small BookSelf",
+        image: "BookSelf",
+        desc: "",
+        price: "360",
+        category: "Furniture",
+    },
+    {
+        id: "id12",
+        name: "Breed Dry Dog Food",
+        image: "DogFood",
+        desc: "",
+        price: "260",
+        category: "Animals Food",
+    },
+    {
+        id: "id13",
+        name: "CANON EOS DSLR Camera",
+        image: "DSLRCamera",
+        desc: "",
+        price: "360",
+        category: "Camera",
+    },
+    {
+        id: "id14",
+        name: "Curology Product Set",
+        image: "productSet",
+        desc: "",
+        price: "500",
+        category: "Skin Care Products",
+    },
+    {
+        id: "id15",
+        name: "Kids Electric Car",
+        image: "KidsElectricCar",
+        desc: "",
+        price: "960",
+        category: "Toys",
+    },
+    {
+        id: "id16",
+        name: "Jr. Zoom Soccer Cleats",
+        image: "Shoes",
+        desc: "",
+        price: "960",
+        category: "Shoes",
+    },
+]
+
+
+export async function GET() {
+    return NextResponse.json(productDetails, { status: 200 });
+}
