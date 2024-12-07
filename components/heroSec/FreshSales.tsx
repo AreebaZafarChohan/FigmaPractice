@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import Timer from '../moreReusableComponents/Timer';
 import Image from 'next/image';
 import Headings from '../moreReusableComponents/Headings';

@@ -1,7 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react'
-import { FcGoogle } from 'react-icons/fc';
 
 const LoginComponent = () => {
   return (
