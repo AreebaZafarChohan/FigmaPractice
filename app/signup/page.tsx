@@ -1,4 +1,3 @@
-import Header from "@/components/header/Header";
 import SignUpComponent from "@/components/signUp/SignUpComponent";
 
 const SignUp = () => {

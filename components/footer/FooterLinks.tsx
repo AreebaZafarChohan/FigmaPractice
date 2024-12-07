@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import Heading from "./Heading";
-import Link from "next/link";
 import FooterLink from "./FooterLink";
 import { RiFacebookLine, RiLinkedinLine, RiTwitterLine } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
