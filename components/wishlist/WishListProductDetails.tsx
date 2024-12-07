@@ -84,17 +84,17 @@ const WishListProductDetails = () => {
 
             <div className='flex flex-col gap-[2rem]'>
                 <h3 className='w-[304px] h-[24px] font-inter font-[600] leading-6 tracking-[0.1] text-text2 text-2xl '>{details.name}</h3>
-                <div className='w-[290px] h-[21px] flex gap-[14px]'>
+                <div className='w-[290px] h-[21px] flex gap-[8px]'>
                     <Image
                     src="/images/FourStar.png"
                     alt='Rating Image'
                     width={200}
                     height={200}
                     className='w-[100px] h-[20px]' />
-                    <p className='w-[95px] h-[21px] font-poppins leading-[21px] font-normal text-text2 opacity-[50%] text-sm'>(150 Reviews) <span>&nbsp;|&nbsp;</span></p>
+                    <p className='w-[110px] h-[21px] font-poppins leading-[21px] font-normal text-text2 opacity-[50%] text-sm'>(150 Reviews) &nbsp;|</p>
                     <p className='font-poppins leading-[21px] font-normal text-button1 opacity-[60%] text-sm'>In Stock</p>
                 </div>
-            <p className='font-inter font-normal leading-6 text-text2 text-xl'>${details.price}</p>
+            <p className='font-inter font-normal leading-6 text-text2 text-2xl'>${details.price}</p>
             <p className='w-[373px] h-[63px] font-poppins font-normal leading-[21px] text-text2'>{details.desc}</p>
             <hr className='bg-black'/>
             <div className='w-[155px] h-[20px] flex gap-[24px]'>
@@ -192,7 +192,7 @@ const WishListProductDetails = () => {
                   </div>
             </div>
             <div className='relative bottom-[4.6rem] h-[41px] rounded-r-[4px] rounded-l-[4px] bg-secondary hover:bg-text2 flex justify-center transition-all duration-300 ease-in-out items-center text-secondary hover:text-bg'>
-                    <Link href={`/wishlist/id/`}
+                    <Link href={`/wishlist/id8`}
                      className='font-poppins font-[500] leading-6 text-xl'>Add To Cart</Link>
                 </div>
         </div>
@@ -246,7 +246,7 @@ const WishListProductDetails = () => {
                   </div>
             </div>
             <div className='relative -top-6 h-[41px] rounded-r-[4px] rounded-l-[4px] bg-text2 flex justify-center items-center'>
-                    <Link href={`/wishlist/id/8`}
+                    <Link href={`/wishlist/id7`}
                      className='font-poppins text-bg font-[500] leading-6 text-xl'>Add To Cart</Link>
                 </div>
         </div>
@@ -302,7 +302,7 @@ const WishListProductDetails = () => {
             </div>
 
             <div className='relative bottom-[3.4rem] h-[41px] rounded-r-[4px] rounded-l-[4px] bg-secondary hover:bg-text2 flex justify-center transition-all duration-300 ease-in-out items-center text-secondary hover:text-bg'>
-                    <Link href={`/wishlist/id/6`}
+                    <Link href={`/wishlist/id6`}
                      className='font-poppins font-[500] leading-6 text-xl'>Add To Cart</Link>
                 </div>
         </div>
